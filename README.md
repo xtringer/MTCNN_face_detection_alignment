@@ -4,9 +4,9 @@
 An MXNet version by [pangyupo](https://github.com/pangyupo/mxnet_mtcnn_face_detection), intended to run on Linux.
 
 Here are a few revisions for running on Windows:  
-1. Causing endless loop if directly run, and may be resolved by putting the code inside a main function in `main.py`. Ref: [RuntimeError on windows trying python multiprocessing](http://stackoverflow.com/questions/18204782/runtimeerror-on-windows-trying-python-multiprocessing)
-2. It seems running slower than that on Linux(tested with WSL) in cpu mode.
-3. This MXNet version may get more false positives than official one. 
+* Causing endless loop if directly run, and may be resolved by putting the code inside a main function in `main.py`. Ref: [RuntimeError on windows trying python multiprocessing](http://stackoverflow.com/questions/18204782/runtimeerror-on-windows-trying-python-multiprocessing)
+* It seems running slower than that on Linux(tested with WSL) in cpu mode.
+* This MXNet version may get more false positives than official one. 
 
 
 ---
