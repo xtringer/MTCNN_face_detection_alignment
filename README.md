@@ -6,7 +6,7 @@ An MXNet version by [pangyupo](https://github.com/pangyupo/mxnet_mtcnn_face_dete
 Here are a few revisions for running on Windows:  
 * Causing endless loop if directly run, and may be resolved by putting the code inside a main function in `main.py`. Ref: [RuntimeError on windows trying python multiprocessing](http://stackoverflow.com/questions/18204782/runtimeerror-on-windows-trying-python-multiprocessing)
 * It seems running slower than that on Linux(tested with WSL) in cpu mode.
-* This MXNet version may get more false positives than official one. 
+* This MXNet version may get more false positives than the official one. 
 
 
 ---
