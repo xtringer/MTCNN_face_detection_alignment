@@ -28,9 +28,9 @@ if __name__ == '__main__':
             for i in range(5):
                 cv2.circle(draw, (p[i], p[i + 5]), 1, (0, 0, 255), 2)
 
-        cv2.imwrite("rst.png",draw)
-    #cv2.imshow("detection result", draw)
-    #cv2.waitKey(0)
+        #cv2.imwrite("rst.png",draw)
+        cv2.imshow("detection result", draw)
+        cv2.waitKey(0)
 
 # --------------
 # test on camera
