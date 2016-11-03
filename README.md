@@ -1,8 +1,11 @@
 # MTCNN_face_detection_alignment
 Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Neural Networks
 
-## MTCNN
-
+---
+## code/MTCNNv1
+For normal caffe Matlab interface, the `'data'` blob requires the shape `[w h c n]` with `BGR` channel mode, which means that image loaded by `imread` in `[h w c]` with `RGB` mode should first **switch channels and transpose using permute**.
+However in MTCNN stage 1, the Matlab input is just the primary `imread` data and postprocesses the output by switch axies, which means that **the stage 1 network `data` blob should be unnormal transposed**
+---
 
 ### Requirement
 1. Caffe: Linux OS: https://github.com/BVLC/caffe. Windows OS: https://github.com/BVLC/caffe/tree/windows or https://github.com/happynear/caffe-windows 
