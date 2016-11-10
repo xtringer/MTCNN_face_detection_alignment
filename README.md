@@ -2,7 +2,9 @@
 Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Neural Networks
 
 # Ver mtcnn-caffe-C++
-A caffe C++ version by [DaFuCoding](https://github.com/DaFuCoding/MTCNN_Caffe)
+A caffe C++ version by [DaFuCoding](https://github.com/DaFuCoding/MTCNN_Caffe)  
+1. build as examples  
+2. as a standalone roject, ref `mtcnn-caffe-C++-2`
 
 # Ver mtcnn-caffe-C++-2
 A caffe C++ version by [wowo200](https://github.com/wowo200/MTCNN)  
