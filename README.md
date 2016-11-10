@@ -11,6 +11,8 @@ A caffe C++ version by [wowo200](https://github.com/wowo200/MTCNN)
   * add `<caffe_root>/include`, `<caffe_root>/build/src` and `/usr/include/hdf5/serial` to `include_directories` 
   * add `<caffe_root>/build/lib`, and `/usr/lib/x86_64-linux-gnu/hdf5/serial` to `link_directories` 
   * set compiler to `g++` or `nvcc` accordingly
+  * for building `Release` mode, add `SET(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall")` and do `cmake -DCMAKE_BUILD_TYPE=Release ..`
+  * Ref:http://blog.sina.com.cn/s/blog_534497fd0102wf2t.html
 
 # Ver mtcnn-caffe-C++-3
 A caffe C++ version by [imistyrain](https://github.com/imistyrain/MTCNN-VS)
