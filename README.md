@@ -8,7 +8,7 @@ For normal caffe Matlab interface, the `'data'` blob requires the shape `[w h c 
 
 However in MTCNN stage 1, the Matlab input is just the primary `imread` data and postprocesses the output by switch axies, which means that **the stage 1 network `data` blob is actually unnormally transposed in memory** .
 
-For normal caffe Pyhton interface, the normal `'data'` blob requires the shape `[n c h w]` with `BGR` channel mode, but for MTCNN image loaded by `cv2.imread` in `[h w c]` with `BGR` mode should first **switch channels and transpose using `np.swapaxes(img, 0, 2)`**.
+For normal caffe Pyhton interface, the `'data'` blob requires the shape `[n c h w]` with `BGR` channel mode, but for MTCNN image loaded by `cv2.imread` in `[h w c]` with `BGR` mode should first **switch channels and transpose using `np.swapaxes(img, 0, 2)`**.
 
 ---
 
