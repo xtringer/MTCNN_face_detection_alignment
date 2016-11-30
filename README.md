@@ -22,3 +22,6 @@ A caffe C++ version by [wowo200](https://github.com/wowo200/MTCNN)
 
 # Ver mtcnn-caffe-C++-3
 A caffe C++ version by [imistyrain](https://github.com/imistyrain/MTCNN-VS)
+
+# Ver mtcnn-caffe-C++-4
+A caffe C++ version by [DuinoDu](https://github.com/DuinoDu/mtcnn_cpp)
