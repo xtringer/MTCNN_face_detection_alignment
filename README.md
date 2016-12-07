@@ -9,7 +9,8 @@ Here are a few revisions for running on Windows:
 * It seems running slower than that on Linux(tested with WSL) in cpu mode.
 * This MXNet version may get more false positives than the official one. 
 
-
+# Ver mxnet-python-2
+* [Seanlinx](https://github.com/Seanlinx/mtcnn)
 ---
 ## About
 
