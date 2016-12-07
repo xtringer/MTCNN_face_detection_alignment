@@ -20,8 +20,11 @@ A caffe C++ version by [wowo200](https://github.com/wowo200/MTCNN)
   * for building `Release` mode, add `SET(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall")` and do `cmake -DCMAKE_BUILD_TYPE=Release ..`
   * Ref:http://blog.sina.com.cn/s/blog_534497fd0102wf2t.html
 
-# Ver mtcnn-caffe-C++-3
-A caffe C++ version by [imistyrain](https://github.com/imistyrain/MTCNN-VS)
+# Ver mtcnn-caffe-C++
+* [imistyrain](https://github.com/imistyrain/MTCNN-VS) caffe-windows-c++ & mxnet-windows
 
-# Ver mtcnn-caffe-C++-4
-A caffe C++ version by [DuinoDu](https://github.com/DuinoDu/mtcnn_cpp)
+* [DuinoDu](https://github.com/DuinoDu/mtcnn_cpp)
+
+* [foreverYoungGitHub](https://github.com/foreverYoungGitHub/MTCNN) include FDDB evaluation
+
+* [AnyVisionltd](https://github.com/AnyVisionltd/MTCNNfacedetector) single/multi-thread for video clip
